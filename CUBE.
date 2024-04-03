@@ -1,0 +1,15 @@
+#including <iostream>
+using namespace std;
+
+//Write a C++ program to calculate the cube of a number.
+
+int main() {
+
+int edge = 4;
+int volume = edge*edge*edge;
+
+cout<<"Cube of number is: "<<volume<<endl;
+
+return 0;
+
+}
