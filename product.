@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+//Q1 - Take 2 integer values in two variables x and y and print their product.
+
+int main(){
+  
+  int x = 2;
+  int y = 4;
+  cout<<x*y<<endl;
+  
+  return 0;
+  
+}
