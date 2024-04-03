@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+//Q6 - Write a C++ program to swap two numbers with the help of a third variable.
+
+int main(){
+int a =2;
+int b =3;
+int c =a;
+a=b;
+b=c;
+
+cout<<"Now a & b is as: "<<a<<b<<endl;
+
+return 0;
+}
