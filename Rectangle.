@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+//Q3 - Write a C++ program to take length and breadth of a rectangle and print its area.
+
+int main(){
+  int length = 7;
+  int width = 4;
+  int Area = length*width; //As we know that area of a rectangle is A=L*B
+
+  cout<<"Area of a rectangle is: "<<Area<<endl;
+
+  return 0;
+}
