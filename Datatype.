@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+//Q5 - Write a C++ program to find size of basic data types.
+
+int main(){
+
+cout<<sizeof(char);
+cout<<sizeof(short);
+cout<<sizeof(int);
+cout<<sizeof(long);
+cout<<sizeof(long long);
+cout<<sizeof(float);
+cout<<sizeof(double);
+cout<<sizeof(long double);
+cout<<sizeof(bool);
+
+return 0;
+}
