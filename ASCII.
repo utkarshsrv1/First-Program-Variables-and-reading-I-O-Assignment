@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+//Q2 - Print the ASCII value of character ‘U’.
+
+int main(){
+char c = 'U';
+int d = (int)c;
+
+cout<<"ASCII number for char 'U' is: "<<&d<<endl;
+
+return 0;
+
+}
